@@ -7,7 +7,7 @@ module DataMemory(
     input [31:0] DataIn,
     input memwrite,
     input memread,
-    input [5:0]adress, 
+    input [4:0]adress, 
 
     //outputs
     output reg [31:0] outdatamemory

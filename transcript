@@ -1,0 +1,409 @@
+# Compile of pc.v failed with 2 errors.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v failed with 1 errors.
+# Compile of control.v failed with 1 errors.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v failed with 1 errors.
+# Compile of and.v failed with 1 errors.
+# Compile of datam.v failed with 1 errors.
+# 10 compiles, 6 failed with 7 errors.
+# Compile of pc.v failed with 1 errors.
+# Compile of add.v failed with 1 errors.
+# Compile of mux.v was successful.
+# Compile of instructionM.v failed with 1 errors.
+# Compile of control.v failed with 1 errors.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v failed with 1 errors.
+# Compile of and.v failed with 1 errors.
+# Compile of datam.v failed with 1 errors.
+# 10 compiles, 7 failed with 7 errors.
+# Compile of pc.v failed with 1 errors.
+# Compile of pc.v was successful.
+# Compile of add.v failed with 1 errors.
+# Compile of add.v failed with 1 errors.
+# Compile of add.v failed with 1 errors.
+# Error opening C:/Users/alan_/Desktop/Fase1/(vlog-13069) C:/Users/alan_/Desktop/Fase1/add.v
+# Path name 'C:/Users/alan_/Desktop/Fase1/(vlog-13069) C:/Users/alan_/Desktop/Fase1/add.v' doesn't exist.
+# Error opening C:/Users/alan_/Desktop/Fase1/(vlog-13069) C:/Users/alan_/Desktop/Fase1/add.v
+# Path name 'C:/Users/alan_/Desktop/Fase1/(vlog-13069) C:/Users/alan_/Desktop/Fase1/add.v' doesn't exist.
+# Compile of cand.v was successful.
+# Compile of add.v failed with 1 errors.
+# Compile of add.v failed with 1 errors.
+# Compile of add.v was successful.
+# Compile of instructionM.v failed with 1 errors.
+# Compile of instructionM.v was successful.
+# Compile of control.v failed with 1 errors.
+# Compile of control.v failed with 8 errors.
+# Compile of control.v was successful.
+# Compile of alu.v failed with 1 errors.
+# Compile of alu.v was successful.
+# Compile of datam.v failed with 1 errors.
+# Compile of datam.v was successful.
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v failed with 2 errors.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of fase1.v failed with 4 errors.
+# Compile of fase1.v failed with 3 errors.
+# Compile of fase1.v failed with 2 errors.
+# Compile of fase1.v failed with 2 errors.
+# Compile of fase1.v failed with 1 errors.
+# Compile of fase1.v failed with 3 errors.
+# Compile of fase1.v failed with 1 errors.
+# Compile of fase1.v was successful.
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# 11 compiles, 0 failed with no errors.
+quit
+vsim work.fase1
+# vsim work.fase1 
+# Start time: 23:21:05 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.add
+# Loading work.mux
+# ** Error: (vsim-3033) Instantiation of 'instructionM' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /fase1 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 94
+#         Searched libraries:
+#             C:/Users/alan_/Desktop/Fase1/work
+# Loading work.control
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# Error loading design
+# End time: 23:21:05 on Nov 16,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 37
+# Compile of fase1.v was successful.
+vsim work.fase1
+# vsim work.fase1 
+# Start time: 23:21:57 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.add
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# ** Error: (vsim-3063) Port 'readadress' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/addinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 79
+# ** Error: (vsim-3063) Port 'out1' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/addinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(11).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'funct'. The port definition is at: C:/Users/alan_/Desktop/Fase1/alucontrol.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/alucontrolintance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'adress'. The port definition is at: C:/Users/alan_/Desktop/Fase1/datam.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/datamemoryinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 164
+# Error loading design
+# End time: 23:21:57 on Nov 16,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 7
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.fase1
+# vsim work.fase1 
+# Start time: 23:23:44 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# ** Error: (vsim-3063) Port 'readadress' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/addinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 79
+# ** Error: (vsim-3063) Port 'out1' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/addinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(11).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'funct'. The port definition is at: C:/Users/alan_/Desktop/Fase1/alucontrol.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/alucontrolintance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'adress'. The port definition is at: C:/Users/alan_/Desktop/Fase1/datam.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/datamemoryinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 164
+# Error loading design
+# End time: 23:23:45 on Nov 16,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 7
+# Compile of fase1.v was successful.
+# Compile of fase1.v was successful.
+vsim work.fase1
+# vsim work.fase1 
+# Start time: 23:24:34 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# ** Error: (vsim-3063) Port 'out1' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/addinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(11).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/mux2 File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'funct'. The port definition is at: C:/Users/alan_/Desktop/Fase1/alucontrol.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/alucontrolintance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'adress'. The port definition is at: C:/Users/alan_/Desktop/Fase1/datam.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/datamemoryinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 164
+# Error loading design
+# End time: 23:24:34 on Nov 16,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 8
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v failed with 1 errors.
+# Compile of mux5b.v was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.fase1
+# vsim work.fase1 
+# Start time: 23:31:01 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'funct'. The port definition is at: C:/Users/alan_/Desktop/Fase1/alucontrol.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/alucontrolintance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'adress'. The port definition is at: C:/Users/alan_/Desktop/Fase1/datam.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/datamemoryinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 163
+run
+# Compile of cand.v was successful.
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.fase1
+# End time: 23:38:01 on Nov 16,2024, Elapsed time: 0:07:00
+# Errors: 0, Warnings: 8
+# vsim work.fase1 
+# Start time: 23:38:01 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'clk'.
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/pcinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'funct'. The port definition is at: C:/Users/alan_/Desktop/Fase1/alucontrol.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/alucontrolintance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'adress'. The port definition is at: C:/Users/alan_/Desktop/Fase1/datam.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/datamemoryinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 163
+# Error loading design
+# End time: 23:38:02 on Nov 16,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of add.v was successful.
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.fase1
+# vsim work.fase1 
+# Start time: 23:39:13 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'funct'. The port definition is at: C:/Users/alan_/Desktop/Fase1/alucontrol.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/alucontrolintance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'adress'. The port definition is at: C:/Users/alan_/Desktop/Fase1/datam.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/datamemoryinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 163
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/fase1/pcinstance/*
+add wave -position insertpoint sim:/fase1/*
+run
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v failed with 1 errors.
+# Compile of mux5b.v was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.fase1
+# End time: 23:44:04 on Nov 16,2024, Elapsed time: 0:04:51
+# Errors: 0, Warnings: 7
+# vsim work.fase1 
+# Start time: 23:44:04 on Nov 16,2024
+# Loading work.fase1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.DataMemory
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'funct'. The port definition is at: C:/Users/alan_/Desktop/Fase1/alucontrol.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/alucontrolintance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'adress'. The port definition is at: C:/Users/alan_/Desktop/Fase1/datam.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /fase1/datamemoryinstance File: C:/Users/alan_/Desktop/Fase1/fase1.v Line: 164
+add wave -position insertpoint sim:/fase1/*
+run
+run
+run
+force -freeze sim:/fase1/clkfase1 1 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/fase1/clkfase1 0 0
+run
+run
+run
+run
+run
+run

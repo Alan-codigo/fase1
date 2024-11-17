@@ -9,7 +9,7 @@ module intructionM(
 
     initial 
         begin
-            $readmemb("dataintructionM.txt", intructionM);  // Cargar datos desde el archivo
+            $readmemb("dataintructionM_formateado.txt", intructionM);  // Cargar datos desde el archivo
         end
 
     always @* 

@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module ALU(
+module alu(
     
     //inputs
     input [31:0] DR1,

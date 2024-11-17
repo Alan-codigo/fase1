@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module add(
+module madd(
     input [31:0] redadress,
     input [31:0] four,
 

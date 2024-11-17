@@ -19,7 +19,7 @@ module registers(
 
     initial 
         begin
-            $readmemb("rbdata.txt", registers);  // Cargar datos desde el archivo
+            $readmemb("registers.txt", registers);  // Cargar datos desde el archivo
         end
 
     always @* 
