@@ -1,5 +1,6 @@
-# fase1
-RAMOS PRECIADO ALAN JOSAFAT
-218130165
-FASE FINAL PARTE 1
-
+Centro universitario: CUCEI
+Materia: Seminario de solución de problemas de arquitectura de computadoras
+Alumno: Ramos Preciado Alan Josafat
+Código: 218130165
+Carrera: Ingeniería en informática (INNI)
+título de investigación: fase 1
