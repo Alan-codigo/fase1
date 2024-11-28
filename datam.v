@@ -18,11 +18,12 @@ reg [31:0] DataMemory [0:3];
 
 always @*
 begin
-    if(memread)
+    if(memwrite)
     begin
         DataMemory[adress] = DataIn;
     end
-    else if(memread)
+    
+    if(memread)
     begin
         outdatamemory = DataMemory[adress];
     end
